@@ -1,3 +1,3 @@
-export default class Clock {
+export declare class Clock {
     tellTime(): string;
 }

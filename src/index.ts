@@ -1,1 +1,1 @@
-export * from "./clock";
+export { Clock } from "./clock";
