@@ -8,4 +8,4 @@ var Clock = /** @class */ (function () {
     };
     return Clock;
 }());
-exports.Clock = Clock;
+exports.default = Clock;
