@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var Clock = /** @class */ (function () {
     function Clock() {
     }
-    Clock.prototype.getNow = function () {
-        return "Now is " + new Date().getTime();
+    Clock.prototype.tellTime = function () {
+        return "It is now " + new Date().getTime();
     };
     return Clock;
 }());
